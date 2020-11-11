@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using TiendaServicios.Api.Autor.Aplicacion;
-using TiendaServicios.Api.Autor.Modelo;
 
 namespace TiendaServicios.Api.Autor.Controllers
 {

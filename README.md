@@ -3,6 +3,7 @@
 - Projeto realizado durante o curso de Microserviços na Udemy. Criação de 3 Microserviços com SGBD distintos, e realizar interação entre eles.
 
 ## 🗃 Recursos utilizados
+- .Net Core
 - Entity Framework
 - Linq
 - MediatR

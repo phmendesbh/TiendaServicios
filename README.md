@@ -6,7 +6,7 @@
 - .Net Core
 - Entity Framework
 - Linq
-- MediatR
+- MediatR - [Saiba mais](https://imasters.com.br/back-end/mediator-pattern-com-mediatr-asp-net-core-2-2 "iMasters")
 - DBSet/Migration
 - AutoMapper
 

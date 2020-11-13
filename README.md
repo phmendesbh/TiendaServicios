@@ -11,6 +11,7 @@
 - AutoMapper
 - xUnit
 - GenFu - [Saiba mais](https://medium.com/@juniorporfirio/brincando-com-genfu-net-core-33855de3e271 "medium.com/@juniorporfirio")
+- Reflection
 
 ## 💾 Tecnologia utilizada
 

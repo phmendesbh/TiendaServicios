@@ -11,7 +11,9 @@ namespace TiendaServicios.Api.Libro.Aplicacion
 {
     public class Consulta
     {
-        public class Ejecuta : IRequest<List<LibroMaterialDto>> { }
+        public class Ejecuta : IRequest<List<LibroMaterialDto>> {
+            public Ejecuta() { }
+        }
         public class Manejador : IRequestHandler<Ejecuta, List<LibroMaterialDto>>
         {
             private readonly ContextoLibreria _contexto;

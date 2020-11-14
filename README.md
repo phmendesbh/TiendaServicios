@@ -24,6 +24,7 @@
 - Sql Server
 - Azure Docker
 - RabbitMQ
+- Azure DevOps
 
 ## 🌎 Fonte de estudo
 - Udemy - Microservicios con ASP.NET Core,Docker y RabbitMQ - [Acesso ao curso](https://www.udemy.com/course/microservices-con-aspnet-core-y-docker-en-azure/ "Udemy")

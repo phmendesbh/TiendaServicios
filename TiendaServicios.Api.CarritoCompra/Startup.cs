@@ -25,16 +25,19 @@ namespace TiendaServicios.Api.CarritoCompra
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<ILibrosService, LibrosService>();
-            services.AddControllers();
+
             services.AddDbContext<CarritoContexto>(options =>
             {
                 options.UseMySQL(Configuration.GetConnectionString("ConexionDatabase"));
             });
             services.AddMediatR(typeof(Nuevo.Manejador).Assembly);
+
             services.AddHttpClient("Libros", config =>
             {
                 config.BaseAddress = new System.Uri(Configuration["Services:Libros"]);
             });
+
+            services.AddControllers();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

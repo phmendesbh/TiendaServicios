@@ -14,6 +14,7 @@
 - InMemory
 - GenFu - [Saiba mais](https://medium.com/@juniorporfirio/brincando-com-genfu-net-core-33855de3e271 "medium.com/@juniorporfirio")
 - Reflection
+- Ocelot [Saiba mais](https://docs.microsoft.com/pt-br/dotnet/architecture/microservices/multi-container-microservice-net-applications/implement-api-gateways-with-ocelot "Implement API Gateways with Ocelot")
 
 ## 💾 Tecnologia utilizada
 
